@@ -42,7 +42,13 @@ n = int(input("Enter a num: "))
 for i in range(1,11):
     print(n*i)
 
-
+#WAP to find factorial of number
+n = int(input("Enter a number: "))
+a =1
+for i in range(1,n+1):
+    a *= i
+    
+print(a)
 
 
 
